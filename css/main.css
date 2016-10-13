@@ -20,7 +20,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  margin: 0.3em;
 }
 
 ul {
@@ -30,11 +30,22 @@ ul {
 ul li {
   list-style-type: none;
   display: inline-block;
+}
+
+ul li a {
   font-family: 'Arial', sans-serif;
 
   padding: .6em;
   background-color: #713837;
   border-radius: 5px;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+
+ul li a:hover {
+  background-color: #f33;
 }
 
 
