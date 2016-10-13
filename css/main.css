@@ -1,10 +1,9 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', serif;
   min-width: 400px;
-  line-height: 1.5;
   color: #fff;
-  background-color: #000;
+  background-color: #dbd6cf;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -14,46 +13,35 @@ html {
 body {
   background-color: #79756f;
   border: 3px solid #595652;
-  padding: .6em;
-  margin: 0em;
+  margin: 0;
 }
 
 h1 {
-  text-align: center;
-  margin: 0.3em;
+  font-family: "Bevan", serif;
+  margin: auto;
 }
 
 ul {
+  padding: 0;
   text-align: center;
+  line-height: 1.5;
 }
 
 ul li {
   list-style-type: none;
   display: inline-block;
+  margin-bottom: 1.5em;
 }
 
 ul li a {
-  font-family: 'Arial', sans-serif;
-
-  padding: .6em;
+  font-family: "Arial", sans-serif;
+  padding: .75em;
   background-color: #713837;
-  border-radius: 5px;
-
+  border-radius: 3px;
   text-decoration: none;
   color: #fff;
 }
 
-
 ul li a:hover {
   background-color: #f33;
 }
-
-
-
-/*
-Typefaces: Bevan (from Google Fonts)
-Line height: 1.5
-Colours: #fff, #79756f, #595652, #713837, #f33
-Paddings: .6em, 0.5em 0.75em
-Margin: 0.3em
-*/
